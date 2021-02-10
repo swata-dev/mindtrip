@@ -1,8 +1,8 @@
 import React , { useState } from 'react';
 
-const Photos = props => {
+const Map = props => {
   return (
-    <section className="photos">
+    <section className="map">
       <p>image</p>
       <p>image</p>
       <p>image</p>
@@ -11,4 +11,4 @@ const Photos = props => {
   );
 }
 
-export default Photos;
+export default Map;
