@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import GoogleMapReact from 'google-map-react';
+import "./Map.css";
 
-const AnyReactComponent = ({ text }) => <div className="pin">{text}</div>;
+const AnyReactComponent = ({ text }) => <div className="marker">{text}</div>;
 
 const Map = props => {
   const [center,setCenter] = useState({
@@ -24,7 +25,7 @@ const Map = props => {
         <AnyReactComponent
           lat={center.lat}
           lng={center.lng}
-          text="My Marker"
+          text="Here"
         />
       </GoogleMapReact>
     </div>
