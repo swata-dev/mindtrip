@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import Photos from "./Photos";
+import Map from "./Map";
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
           Learn React
         </a>
       </header>
-      <Photos />
+      <Map />
     </div>
   );
 }
