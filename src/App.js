@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Photos from "./Photos";
+import Location from "./Location";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         </a>
       </header>
       <Photos />
+      <Location />
     </div>
   );
 }
